@@ -270,8 +270,8 @@ const UICtrl = (function(){
       document.querySelector(UISelectors.addBtn).style.display = 'inline';
     },
     showEditState: function(){
-      document.querySelector(UISelectors.updateBtn).style.display = 'inline';
-      document.querySelector(UISelectors.deleteBtn).style.display = 'inline';
+      document.querySelector(UISelectors.updateBtn).style.display = 'inline-block';
+      document.querySelector(UISelectors.deleteBtn).style.display = 'inline-block';
       document.querySelector(UISelectors.backBtn).style.display = 'inline';
       document.querySelector(UISelectors.addBtn).style.display = 'none';
     },

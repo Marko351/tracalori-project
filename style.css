@@ -1,0 +1,22 @@
+@media screen and (max-width: 550px){
+  #brand-name{
+    position: relative;
+    left: 25%; 
+  }
+
+  #update-btn, #delete-btn{
+    width: 70%;
+    position: relative;
+    left: 15%;
+    margin-bottom: 8px;
+  }
+
+  #back-btn{
+    float: none;
+    position: relative;
+    left: 30%;
+    width: 40%;
+    margin-top: 10px;
+  }
+  
+}
